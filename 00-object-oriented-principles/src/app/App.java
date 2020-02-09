@@ -18,22 +18,28 @@ public class App {
    * (String[] args) parameters - main method accepts a single string array
    * argument, can be called as part of java command line arguments
    * 
-   * throws Exception -
    */
-  public static void main(String[] args) throws Exception {
-    // Student s1 = new Student("Jane Doe", "jane@email.com", 1);
-    // s1.setProgrammeName("ITE 2200");
-    // s1.print();
-    // s1.setAttendanceCount(30);
+  public static void main(String[] args) {
+    // instance of student
+    Student s1 = new Student("Jane Doe", "janedoe@email.com", Gender.FEMALE);
+    s1.setName("Jane Does");
+    s1.setProgrammeName("ITE 2200");
+    s1.setAttendanceCount(75);
+    System.out.println("Student---------------------------");
+    s1.print();
+    System.out.println(s1.canWriteFinalMessage());
 
-    GeneralStudent gs1 = new GeneralStudent("John Doe", "john@email.com", 0);
-    gs1.setAttendanceCount(10);
+    // instance of general student
+    GeneralStudent gs1 = new GeneralStudent("John Doe", "john@email.com", Gender.MALE);
+    gs1.setAttendanceCount(50);
+    System.out.println("General Student---------------------------");
     gs1.print();
     System.out.println(gs1.canWriteFinalMessage());
 
-    SpecializedStudent ss1 = new SpecializedStudent("Jame Moore", "jame@email.com", 0);
-    ss1.setAttendanceCount(10);
-
+    // instance of specialized student
+    SpecializedStudent ss1 = new SpecializedStudent("Jane Smith", "janesmith@email.com", Gender.FEMALE);
+    ss1.setAttendanceCount(35);
+    System.out.println("Specialized Student---------------------------");
     ss1.print();
     System.out.println(ss1.canWriteFinalMessage());
   }
