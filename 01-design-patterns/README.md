@@ -1,7 +1,5 @@
 ## Design Patterns
 
----
-
 ### Composite design pattern
 
 > Allows you to compose objects into a tree structure

@@ -1,9 +1,16 @@
-package app;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.designpatterns.composite;
+
+import java.util.List;
 
 /**
- * an import of List interface, also known as ordered collection or a sequence. 
+ *
+ * @author amritaramnauth
  */
-import java.util.List;
 
 /**
  * Component interface that defines common operations for both simple (leaf) and
