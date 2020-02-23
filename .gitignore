@@ -4,6 +4,9 @@
 *.project
 *.settings
 
+# Maven related
+target/
+
 # Log file
 *.log
 *.vscode
