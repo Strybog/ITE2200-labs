@@ -30,6 +30,20 @@
 
 ---
 
+### Strategy design pattern
+
+> Defines multiple algorithms, separated as concrete strategies and makes their objects interchangeable.
+
+- Is a _behavioural_ design pattern
+- Solves the design problem - _How can an algorithm be selected and exchanged at run-time?_ & _How can a class be configured with an algorithm at run-time instead of implementing an algorithm directly?_
+- Useful when we have multiple algorithms for specific task and we want flexibility in choosing an algorithm at runtime for specific task
+
+- Scenarios where this pattern can be modelled include
+  - Calculating prices in an order processing system
+  - `Collections.sort()` method that takes a comparator parameter, based on different implementations of comparator interfaces.
+
+---
+
 ### Resources
 
 1. List of patterns and implementations (in Java)
@@ -53,4 +67,21 @@
    > https://refactoring.guru/design-patterns/composite
 
 6. Observer design pattern
+
    > https://refactoring.guru/design-patterns/observer
+
+7. Strategy design pattern
+
+   > https://refactoring.guru/design-patterns/strategy
+
+8. Strategy design pattern with Java example
+
+   > https://www.journaldev.com/1754/strategy-design-pattern-in-java-example-tutorial
+
+#### Videos
+
+1. Strategy design pattern - https://www.youtube.com/watch?v=Nx8iUv-ZnPw
+
+2. Observer design pattern - https://www.youtube.com/watch?v=wiQdrH2YpT4
+
+3. Composite design pattern - https://www.youtube.com/watch?v=2HUnoKyC9l0
