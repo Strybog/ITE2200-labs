@@ -1,0 +1,8 @@
+CREATE DATABASE blog;
+
+CREATE TABLE post (
+  id SERIAL PRIMARY KEY,
+  title TEXT NOT NULL,
+  description TEXT NOT NULL,
+  author VARCHAR(100) NOT NULL
+);
